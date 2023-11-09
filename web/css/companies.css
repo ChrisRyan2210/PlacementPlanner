@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Sep 2023, 22:45:27
+    Author     : Chris
+*/
+ /* HTML/CSS for this pages was retrieved from Bootstrap template at this link https://getbootstrap.com/docs/4.0/examples/album/# .
+    ChatGTPv3.5, https://chat.openai.com/share/f54464fd-3b34-4785-9205-54753a07fecb to align items on page*/
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+.company-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; /* Add spacing between boxes */
+}
+
+.company-box {
+    flex-basis: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+/* Reference: GetBootstrap.com (Sep 2023), https://getbootstrap.com/docs/4.0/examples/album/# 
+   ChatGTPv3.5, https://chat.openai.com/share/f54464fd-3b34-4785-9205-54753a07fecb */
